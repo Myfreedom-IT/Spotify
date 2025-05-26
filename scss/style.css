@@ -1,0 +1,672 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.container {
+  max-width: 1165px;
+  margin: auto;
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 95%;
+  }
+}
+
+.mat-rod {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mat {
+  color: rgb(215, 255, 194);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1.2px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.mat2 {
+  color: rgb(0, 68, 73);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1.6px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.pressf {
+  background: #3CB371;
+  padding: 44px 241px 659px 241px;
+}
+
+.spanchik {
+  color: rgb(255, 254, 240);
+  font-family: Roboto;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 280px;
+  margin-bottom: 40px;
+}
+@media (max-width: 650px) {
+  .spanchik {
+    font-size: 30px;
+  }
+}
+
+.origspan {
+  color: rgb(255, 172, 127);
+  font-family: Roboto;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+@media (max-width: 650px) {
+  .origspan {
+    font-size: 30px;
+  }
+}
+
+.head-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head-p {
+  color: rgb(255, 254, 240);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.head-button {
+  color: rgb(0, 68, 73);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  text-align: center;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: 2px solid rgb(11, 255, 128);
+  border-radius: 800px;
+  background: rgb(11, 255, 128);
+  padding: 16px 34px;
+  margin-top: 40px;
+}
+
+.s-div {
+  border-radius: 8px;
+  box-shadow: 2px 8px 16px 0px rgba(153, 169, 197, 0.2);
+  background: rgb(255, 254, 240);
+  padding: 28px;
+}
+
+.s-p {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-align: center;
+}
+
+.s-h {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.s-divv {
+  border-radius: 8px;
+  box-shadow: 2px 8px 16px 0px rgba(153, 169, 197, 0.2);
+  background: rgb(255, 254, 240);
+  padding: 28px;
+  max-width: 435px;
+}
+
+.s-hh {
+  color: #F0F8FF;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .s-hh {
+    font-size: 36px;
+  }
+}
+
+.s-but {
+  color: rgb(255, 254, 240);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  text-align: center;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  background: rgb(0, 68, 73);
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.s-divvv {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  align-items: center;
+  transform: rotate(-28deg);
+  background-color: rgba(110, 103, 150, 0.541);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 400px;
+  margin-right: 500px;
+}
+@media (max-width: 1110px) {
+  .s-divvv {
+    margin-left: 250px;
+    margin-right: 0;
+  }
+}
+@media (max-width: 800px) {
+  .s-divvv {
+    transform: rotate(0deg);
+    margin-left: 0;
+    max-width: 500px;
+  }
+}
+
+.s-a {
+  text-decoration: none;
+  color: rgb(255, 254, 240);
+}
+
+.s-s {
+  color: rgb(34, 28, 28);
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: left;
+  top: 1370px;
+  left: 900px;
+}
+
+.s {
+  background-image: url(../img/756146747202090.jpg);
+  padding: 30px 0 550px 0;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1200px) {
+  .s {
+    background-size: cover;
+  }
+}
+
+.s-main-div {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  top: 1500px;
+  right: 20px;
+}
+@media (max-width: 1110px) {
+  .s-main-div {
+    flex-direction: column;
+    right: 500px;
+  }
+}
+@media (max-width: 1180px) {
+  .s-main-div {
+    flex-direction: row;
+    right: 50px;
+    top: 1700px;
+  }
+}
+@media (max-width: 800px) {
+  .s-main-div {
+    flex-direction: column;
+  }
+}
+@media (max-width: 650px) {
+  .s-main-div {
+    top: 1900px;
+  }
+}
+
+.foot-a {
+  color: rgb(255, 254, 240);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.s {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1110px) {
+  .s {
+    align-items: center;
+  }
+}
+
+footer {
+  background-color: #228B22;
+  padding: 64px 213px 80px 24px;
+}
+
+.foot-div {
+  display: flex;
+  flex-direction: column;
+  max-width: 190px;
+  gap: 48px;
+}
+
+.foot-div-a {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.c {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 800px) {
+  .c {
+    font-size: 8px;
+  }
+}
+@media (max-width: 650px) {
+  .c {
+    gap: 80px;
+  }
+}
+
+.foot-img {
+  max-width: 40px;
+}
+
+.foot-h {
+  color: rgb(255, 254, 240);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h2, p {
+  color: rgb(0, 68, 73);
+}
+
+#PremTrial {
+  margin: 128px;
+  text-align: center;
+}
+#PremTrial .premium {
+  padding: 56px 122px;
+  border-radius: 8px;
+  background: rgb(186, 235, 255);
+}
+#PremTrial .premium .h-d {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 20px;
+}
+@media (max-width: 680px) {
+  #PremTrial .premium .h-d {
+    font-size: 12px;
+  }
+}
+#PremTrial .premium .p-d {
+  max-width: 600px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 28px;
+}
+@media (max-width: 680px) {
+  #PremTrial .premium .p-d {
+    font-size: 8px;
+  }
+}
+#PremTrial .premium .b-d {
+  color: rgb(255, 254, 240);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  background-color: rgb(72, 60, 255);
+  max-width: 140px;
+  border: none;
+  border-radius: 18px;
+  padding: 6px 34px;
+}
+@media (max-width: 800px) {
+  #PremTrial {
+    font-size: smaller;
+  }
+}
+
+#PremTrial {
+  margin: 128px;
+  text-align: center;
+}
+
+#PremTrial .premium {
+  padding: 56px 122px;
+  border-radius: 8px;
+  background: rgb(186, 235, 255);
+}
+
+#PremTrial .premium h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px;
+  margin-bottom: 20px;
+}
+
+#PremTrial .premium p {
+  max-width: 600px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 28px;
+}
+
+#PremTrial .premium button {
+  color: rgb(255, 254, 240);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  background-color: rgb(72, 60, 255);
+  max-width: 140px;
+  border: none;
+  border-radius: 18px;
+  padding: 6px 34px;
+}
+
+#Plans {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 150px;
+  justify-content: center;
+}
+
+#Plans div {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(41, 80, 59);
+  max-width: 360px;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+#Plans div p, #Plans div li {
+  color: white;
+}
+
+#Plans div .spis, #Plans div .spis2 {
+  margin-top: 4px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#Plans div .spis1, #Plans div .spis3 {
+  margin-top: 2px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(167, 167, 167);
+}
+
+#Plans div hr {
+  border: none;
+  height: 1px;
+  margin: 16px 0px 0px;
+  color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#Plans div ul {
+  margin: 20px 0px;
+  box-sizing: border-box;
+  width: 100%;
+  list-style: inside;
+  color: white;
+}
+
+#Plans div .terms, #Plans div .terms1, #Plans div .terms2, #Plans div .terms3 {
+  text-align: center;
+  color: rgb(167, 167, 167);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+#Plans div a {
+  color: rgb(167, 167, 167);
+  text-decoration: underline;
+}
+
+#Plans .individual .individ {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 145%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  color: rgb(255, 210, 215);
+  margin-bottom: 20px;
+}
+
+#Plans .individual .pcol {
+  background: rgb(255, 210, 215);
+  border-radius: 6px 0px;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 13.75px;
+  color: rgb(0, 0, 0);
+  max-width: 130px;
+  text-align: center;
+  margin: -16px -16px 30px;
+}
+
+#Plans .individual div {
+  text-align: center;
+  padding: 0px;
+}
+
+#Plans .individual div .but1 {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 210, 215);
+  border-radius: 16px;
+  border: none;
+  padding: 8px 32px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#Plans .student .pcol1 {
+  border-radius: 6px 0px;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 13.75px;
+  color: rgb(0, 0, 0);
+  background: rgb(196, 177, 212);
+  max-width: 130px;
+  text-align: center;
+  margin: -16px -16px 30px;
+}
+
+#Plans .student .individ1 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 145%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  color: rgb(196, 177, 212);
+  margin-bottom: 20px;
+}
+
+#Plans .student div {
+  text-align: center;
+  padding: 0px;
+}
+
+#Plans .student div .but2 {
+  color: rgb(0, 0, 0);
+  background: rgb(196, 177, 212);
+  border-radius: 16px;
+  border: none;
+  padding: 8px 32px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#Plans .duo .individ2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 145%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  color: rgb(255, 200, 98);
+  margin-bottom: 20px;
+}
+
+#Plans .duo div {
+  text-align: center;
+  padding: 0px;
+}
+
+#Plans .duo div .but3 {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 200, 98);
+  border-radius: 16px;
+  border: none;
+  padding: 8px 32px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#Plans .family .individ3 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 145%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  color: rgb(165, 187, 209);
+  margin-bottom: 20px;
+}
+
+#Plans .family div {
+  text-align: center;
+  padding: 0px;
+}
+
+#Plans .family div .but4 {
+  color: rgb(0, 0, 0);
+  background: rgb(165, 187, 209);
+  border-radius: 16px;
+  border: none;
+  padding: 8px 32px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./img/icons8-spotify-50.png" type="image/x-icon">
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: roboto;
+      font-size: 20px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .swiper {
+      width: 100%;
+      height: 400px;
+      background:  rgb(0, 68, 73);;
+      padding: 50px;
+      margin-top: 150px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 20px;
+      background: rgb(255, 254, 240);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      border-radius: 4%;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper-slide {
+      width: 250px;
+    }
+
+    .swiper-slide:nth-child(2n) {
+      width: 250px;
+    }
+
+    .swiper-slide:nth-child(3n) {
+      width: 250px;
+    }
+  </style>
+</head>
+<body>
+    <header class="pressf">
+        <div class="container mat-rod">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="mat">cheapest premium</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="mat2">LOGIN</a>
+        </div>
+        <div class="head-div">
+            <h1 class="spanchik">
+                Less overpaying.<span class="origspan">More listening.</span>
+            </h1>
+            <p class="head-p">
+                feel the music that help you to relax
+            </p>
+            <button class="head-button">
+                GET FREE PREMIUM =>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="s">
+            <div class="container">
+                <h1 class="s-s">
+                    How Going Works
+                </h1>
+                <div class="ss">
+                    <div class="s-main-div">
+                        <div class="s-div">
+                            <h2 class="s-h">lots of music</h2>
+                            <p class="s-p">we have more than 50 million tracks for every taste</p>
+                        </div>
+                        <div class="s-divv">
+                            <h2 class="s-h">lots of users</h2>
+                            <p class="s-p">we have more than 615 million monthly active users, including 239 million paid subscribers.</p>
+                        </div>
+                    </div>
+                    <div class="s-divvv">
+                        <h2 class="s-hh">
+                            We have about 20 million listeners every day, would you like to join?
+                        </h2>
+                        <button class="s-but">
+                            <a href="https://www.spotify.com/by-ru/download/windows/" class=s-a>Downloud Spotify</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><p>Amazing Music Library  
+                Spotify has an incredible selection of songs and playlists. I love discovering new artists and genres!</p></div>
+              <div class="swiper-slide"><p>The interface is so easy to navigate. Finding my favorite music and creating playlists is a breeze!</p></div>
+              <div class="swiper-slide"><p>I appreciate the personalized playlists like Discover Weekly. It always introduces me to songs I end up loving!</p></div>
+              <div class="swiper-slide"><p>Downloading songs for offline listening is a game-changer! Perfect for long commutes or traveling.</p></div>
+              <div class="swiper-slide"><p>Upgrading to Premium was worth it! No ads means I can enjoy my playlists uninterrupted.</p></div>
+              <div class="swiper-slide"><p>I love being able to create collaborative playlists with friends. It is a fun way to share music with each other.</p></div>
+              <div class="swiper-slide"><p>Spotify doesn't just have music; their podcast selection is excellent. I've found some great shows to listen to during my workouts.</p></div>
+              <div class="swiper-slide"><p>Spotify is always updating its features and algorithms. It feels fresh and keeps up with current trends.</p></div>
+              <div class="swiper-slide"><p>I enjoy seeing what my friends are listening to and sharing my playlists with them. It adds a social aspect to music!</p></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: "auto",
+              centeredSlides: true,
+              spaceBetween: 30,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+            });
+          </script>
+          <div class="container">
+              <section id="Plans">
+              <div class="individual">
+                  <p class="pcol">US$0 for 1 month</p>
+                  <h4 class="individ">Individual</h4>
+                  <p class="spis">US$0 for 1 month</p>
+                  <p class="spis1">US$4.99/month after</p>
+                  <hr>
+                  <ul>
+                      <li>1 Premium account</li>
+                      <li>Cancel anytime</li>
+                  </ul>
+                  <div><button class="but1">Try 1 month for US$0</button></div>
+                  <p class="terms">US$0 for 1 month, then US$4.99 per month after. Offer only available if you haven’t tried Premium before. <a href="#">Terms apply.</a></p>
+              </div>
+              <div class="student">
+                  <p class="pcol1">US$0 for 1 month</p>
+                  <h4 class="individ1">Student</h4>
+                  <p class="spis2">US$0 for 1 month</p>
+                  <p class="spis3">US$2.49/month after</p>
+                  <hr>
+                  <ul>
+                      <li>1 verified Premium account</li>
+                      <li>Discount for eligible students</li>
+                      <li>Cancel anytime</li>
+                  </ul>
+                  <div><button class="but2">Try 1 month for US$0</button></div>
+                  <p class="terms1">US$0 for 1 month, then US$2.49 per month after. Offer available only to students at an accredited higher education institution and if you haven’t tried Premium before.<a href="#">Terms apply.</a></p>
+              </div>
+              <div class="duo">
+                  <h4 class="individ2">Duo</h4>
+                  <p class="spis4">US$6.49/month</p>
+                  <hr>
+                  <ul>
+                      <li>2 Premium account</li>
+                      <li>Cancel anytime</li>
+                  </ul>
+                  <div><button class="but3">Get Premuim Duo</button></div>
+                  <p class="terms2">For couples who reside at the same address.<a href="#">Terms apply.</a></p>
+              </div>
+              <div class="family">
+                  <h4 class="individ3">Family</h4>
+                  <p class="spis7">US$7.99/month</p>
+                  <hr>
+                  <ul>
+                      <li>Up to 6 Premium accounts</li>
+                      <li>Control content marked as explicit</li>
+                      <li>Cancel anytime</li>
+                  </ul>
+                  <div><button class="but4">Get Premuim Family</button></div>
+                  <p class="terms3">US$0 for 1 month, then US$4.99 per month after. Offer only available if you haven’t tried Premium before. <a href="#">Terms apply.</a></p>
+              </div>
+          </section>
+            <section id="PremTrial">
+                <div class="premium">
+                    <h2 class="h-d">How does the Spotify Premium trial work?</h2>
+                    <p class="p-d">If you've never had Premium before, you may be eligible for a free (or reduced rate) trial. For trials, you'll still need to enter a valid payment method to sign up. We'll use this to confirm your country or region and take payments if you want to keep Premium after the offer ends. We'll send you a reminder 7 days before your trial ends. Country restrictions and Terms apply.</p>
+                    <button class="b-d">Get <br>trial!</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>   
+        <div class="c">
+            <div class="foot-div"> 
+                <h2 class="foot-h">About</h2>  
+                <div class="foot-div-a">
+                    <a href="#" class="foot-a">HOW IT WORKS</a>
+                    <a href="#" class="foot-a">ABOUT US</a>
+                    <a href="#" class="foot-a">CAREERS</a>
+                    <a href="#" class="foot-a">PREMIUM MEMBERSHIP</a>
+                    <a href="#" class="foot-a">ELITE MEMBERSIP</a>
+                    <a href="#" class="foot-a">NEWSROOM</a>
+                    <a href="#" class="foot-a">MEMBER STORIES</a>
+                    <a href="#" class="foot-a">REFERRAL</a>
+                    <a href="#" class="foot-a">GIFT CARDS</a>
+                </div>
+            </div>
+            <div class="foot-div"> 
+                <h2 class="foot-h">Resources</h2>  
+                <div class="foot-div-a"> 
+                    <a href="#" class="foot-a">WINDOW SEAT BLOG</a>
+                    <a href="#" class="foot-a">HOW TO FIND CHEAP PREM</a>
+                </div>
+            </div>
+            <div class="foot-div">
+                <h2 class="foot-h">Support</h2>  
+                <div class="foot-div-a">
+                    <a href="#" class="foot-a">HELP CENTER</a>
+                    <a href="#" class="foot-a">CONTACT US</a>
+                </div>
+            </div>
+            <div class="foot-div">
+                <h2 class="foot-h">Follow us</h2>  
+                <div class="foot-div-a">
+                    <a href="#"><img src="./img/free-icon-facebook-1077041.png" alt="" class="foot-img"></a>
+                    <a href="#"><img src="./img/free-icon-youtube-1077046.png" alt="" class="foot-img"></a>
+                </div>
+            </div>
+        </div> 
+    </footer>
+</body>
+</html>
