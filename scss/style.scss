@@ -113,6 +113,10 @@ time, mark, audio, video {
     padding: 16px 34px;
     margin-top: 40px;
 }
+.head-a{
+  text-decoration: none;
+  color: rgb(88, 88, 84);
+}
 .s-div{
     border-radius: 8px;
     box-shadow: 2px 8px 16px 0px rgba(153, 169, 197, 0.2);
@@ -240,7 +244,7 @@ time, mark, audio, video {
     }
 }
 .foot-a{
-    color: rgb(255, 254, 240);
+    color: rgb(190, 190, 188);
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
@@ -259,7 +263,7 @@ time, mark, audio, video {
     }
 }
 footer{
-    background-color: #228B22;
+    background-color: #133b13;
     padding: 64px 213px 80px 24px;
 }
 .foot-div{
@@ -287,7 +291,7 @@ footer{
     max-width: 40px;
 }
 .foot-h{
-    color: rgb(255, 254, 240);
+    color: rgb(190, 190, 188);
     font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
@@ -309,7 +313,7 @@ h2,p {
     .premium{
         padding: 56px 122px ;
         border-radius: 8px;
-        background: rgb(186, 235, 255);
+        background: rgb(41, 80, 59);
         .h-d{
             font-size: 48px;
             font-weight: 400;
@@ -355,13 +359,14 @@ h2,p {
 #PremTrial .premium {
   padding: 56px 122px;
   border-radius: 8px;
-  background: rgb(186, 235, 255);
+  background: rgb(41, 80, 59);
 }
 #PremTrial .premium h2 {
   font-size: 48px;
   font-weight: 400;
   line-height: 64px;
   margin-bottom: 20px;
+  color: rgb(255, 254, 240);
 }
 #PremTrial .premium p {
   max-width: 600px;
@@ -369,6 +374,7 @@ h2,p {
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 28px;
+  color: rgb(255, 254, 240);
 }
 #PremTrial .premium button {
   color: rgb(255, 254, 240);
